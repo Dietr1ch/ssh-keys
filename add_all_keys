@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+mkdir -p ~/.ssh
+touch ~/.ssh/authorized_keys
+chmod 644 ~/.ssh/authorized_keys
+
+cat *.pub >> ~/.ssh/authorized_keys

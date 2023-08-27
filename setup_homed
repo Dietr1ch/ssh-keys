@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+homectl update dietr1ch \
+  --ssh-authorized-keys @raft.pub \
+  --ssh-authorized-keys @sigabrt.pub
