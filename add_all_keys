@@ -4,4 +4,4 @@ mkdir -p ~/.ssh
 touch ~/.ssh/authorized_keys
 chmod 644 ~/.ssh/authorized_keys
 
-cat *.pub >> ~/.ssh/authorized_keys
+cat keys/*.pub >> ~/.ssh/authorized_keys
