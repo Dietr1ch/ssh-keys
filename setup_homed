@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 
-homectl update dietr1ch \
-  --ssh-authorized-keys @keys/flock.pub \
-  --ssh-authorized-keys @keys/raft.pub \
-  --ssh-authorized-keys @keys/sigabrt.pub
+find keys/ -name '*.pub' | xargs -I '%' -n '1' homectl update $USER --ssh-authorized-keys '@%'
