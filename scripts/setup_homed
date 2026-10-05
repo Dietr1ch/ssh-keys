@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-find keys/ -name '*.pub' | xargs -I '%' -n '1' homectl update $USER --ssh-authorized-keys '@%'
