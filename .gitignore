@@ -1,2 +1,13 @@
-keys/*
+# -*- mode: gitignore; -*-
+
+# Unix
+.*
+
+
+# Git
+!.gitignore
+
+
+# Project
+keys/
 !keys/*.pub
