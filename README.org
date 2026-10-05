@@ -1,0 +1,6 @@
+#+title: My SSH keys
+
+* Take over a machine
+#+begin_src bash
+  bash <(curl -fsSL https://raw.githubusercontent.com/Dietr1ch/ssh-keys/master/scripts/hijack)
+#+end_src
